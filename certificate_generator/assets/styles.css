@@ -1,0 +1,44 @@
+.stApp {
+    background: linear-gradient(135deg, #f8f5ef 0%, #fdfbf7 100%);
+}
+
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e2d7c1;
+    border-radius: 16px;
+    padding: 1rem 1.2rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1rem;
+}
+
+h1, h2, h3 {
+    color: #2e4a6f;
+}
+
+.stButton > button {
+    border-radius: 999px;
+    border: none;
+    background: #2e4a6f;
+    color: white;
+    padding: 0.55rem 1.1rem;
+}
+
+.stDownloadButton > button {
+    border-radius: 999px;
+    border: 1px solid #b78b22;
+    background: #fff8e8;
+    color: #5f4500;
+}
+
+.footer {
+    text-align: center;
+    color: #6b6b6b;
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
