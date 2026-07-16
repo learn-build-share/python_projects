@@ -29,4 +29,4 @@ Thumbs.db
 htmlcov/
 certificate_generator/__init__.py
 quizapp/__init__.py
-QuizApp/__pycache__/
+QuizApp/__pycache__
