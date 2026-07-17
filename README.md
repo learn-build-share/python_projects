@@ -1,5 +1,6 @@
-# python_projects
-Python Mini Projects is a collection of beginner-friendly to intermediate Python projects designed to help developers learn by building real-world applications. Each project is well-organized, easy to understand, and focuses on strengthening core Python concepts, problem-solving skills, and practical programming experience.
+# Python_Projects
+Python Mini Projects is a collection of beginner-friendly Python practice files and small applications designed to help learners build confidence in core programming concepts. The repository includes examples for calculations, certificates, quizzes, lists, and strings in a simple and organized structure.
+
 # Python version is 3.13
 
 ## Getting started locally
@@ -12,8 +13,8 @@ Python Mini Projects is a collection of beginner-friendly to intermediate Python
 
 2. Create and activate a virtual environment:
    ```bash
-   python -m venv .venv
-   .venv\Scripts\activate
+   python -m venv env_name
+   env_name\Scripts\activate
    ```
 
 3. Install dependencies:
@@ -26,15 +27,30 @@ Python Mini Projects is a collection of beginner-friendly to intermediate Python
    streamlit run certificate_generator/app.py
    ```
 
-5. Optional: run the older entry script:
+5. Netflix watch list app:
    ```bash
-   streamlit run certificate_generator/event.py
+   streamlit run Lists/netflix_watch_list.py
    ```
 
 ## Project structure
-- calculator/: simple calculator app
-- certificate_generator/: certificate preview generator with Streamlit
-- QuizApp/: quiz application
+- calculator/: simple calculator examples and practice files
+- certificate_generator/: certificate preview generator built with Streamlit
+- quizapp/: interactive quiz application examples
+- Lists/: list definitions, examples, and Netflix watch list scripts
+- Strings/: string methods and beginner practice scripts
+
+## Highlights
+- Beginner-friendly examples with clear comments
+- Practice files for core Python topics
+- Small projects that can be run directly with Python or Streamlit
+
+## Run examples
+```bash
+python Lists/list_demo.py
+python Lists/list_notes.py
+```
+
+> Tuple-related materials are available in the repository, but they are intentionally not listed in this simple overview.
 
 ## Requirements
 The project dependencies are listed in [requirements.txt](requirements.txt).
