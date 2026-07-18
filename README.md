@@ -31,6 +31,10 @@ Python Mini Projects is a collection of beginner-friendly Python practice files 
    ```bash
    streamlit run Lists/netflix_watch_list.py
    ```
+6. Netflix watch list app:
+   ```bash
+   streamlit run Tuple/otp_verification.py
+   ```
 
 ## Project structure
 - calculator/: simple calculator examples and practice files
@@ -38,6 +42,7 @@ Python Mini Projects is a collection of beginner-friendly Python practice files 
 - quizapp/: interactive quiz application examples
 - Lists/: list definitions, examples, and Netflix watch list scripts
 - Strings/: string methods and beginner practice scripts
+- Tuple/: tuple examples, OTP verification scripts, and beginner notes
 
 ## Highlights
 - Beginner-friendly examples with clear comments
@@ -48,9 +53,11 @@ Python Mini Projects is a collection of beginner-friendly Python practice files 
 ```bash
 python Lists/list_demo.py
 python Lists/list_notes.py
+python Tuple/otp_verification_without_ui.py
+python Tuple/tuple_learning_notes.py
 ```
 
-> Tuple-related materials are available in the repository, but they are intentionally not listed in this simple overview.
+> Tuple examples are now included in the overview alongside the existing list and string practice scripts.
 
 ## Requirements
 The project dependencies are listed in [requirements.txt](requirements.txt).
