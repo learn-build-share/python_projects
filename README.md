@@ -31,11 +31,14 @@ Python Mini Projects is a collection of beginner-friendly Python practice files 
    ```bash
    streamlit run Lists/netflix_watch_list.py
    ```
-6. Netflix watch list app:
+6. Otp Verification:
    ```bash
    streamlit run Tuple/otp_verification.py
    ```
-
+7. Instagram follower cleaner:
+   ```bash
+   streamlit run Set/instagram_cleaner/app.py
+   ```
 ## Project structure
 - calculator/: simple calculator examples and practice files
 - certificate_generator/: certificate preview generator built with Streamlit
@@ -43,6 +46,7 @@ Python Mini Projects is a collection of beginner-friendly Python practice files 
 - Lists/: list definitions, examples, and Netflix watch list scripts
 - Strings/: string methods and beginner practice scripts
 - Tuple/: tuple examples, OTP verification scripts, and beginner notes
+- Set/: Set examples, Instagram follower cleaner mini project, and beginner notes
 
 ## Highlights
 - Beginner-friendly examples with clear comments
