@@ -39,6 +39,10 @@ Python Mini Projects is a collection of beginner-friendly Python practice files 
    ```bash
    streamlit run Set/instagram_cleaner/app.py
    ```
+8. Event Id Pass Generator:
+   ```bash
+   streamlit run FrozenSet/event_verification_id.py
+   ```
 ## Project structure
 - calculator/: simple calculator examples and practice files
 - certificate_generator/: certificate preview generator built with Streamlit
@@ -47,6 +51,7 @@ Python Mini Projects is a collection of beginner-friendly Python practice files 
 - Strings/: string methods and beginner practice scripts
 - Tuple/: tuple examples, OTP verification scripts, and beginner notes
 - Set/: Set examples, Instagram follower cleaner mini project, and beginner notes
+- FrozenSet/: Mini Project and demo of Frozen set.
 
 ## Highlights
 - Beginner-friendly examples with clear comments
