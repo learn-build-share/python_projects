@@ -43,6 +43,10 @@ Python Mini Projects is a collection of beginner-friendly Python practice files 
    ```bash
    streamlit run FrozenSet/event_verification_id.py
    ```
+9. Pattern Programs:
+   ```bash
+   python pattern_programs.py
+    ```
 ## Project structure
 - calculator/: simple calculator examples and practice files
 - certificate_generator/: certificate preview generator built with Streamlit
