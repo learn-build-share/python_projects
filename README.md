@@ -60,8 +60,6 @@ Python Mini Projects is a collection of beginner-friendly Python practice files 
 - Strings/: string methods and beginner practice scripts
 - Tuple/: tuple examples, OTP verification scripts, and beginner notes
 - Set/: Set examples, Instagram follower cleaner mini project, and beginner notes
-- FrozenSet/: Mini Project and demo of Frozen set.
-- functions/: food delivery app mini project.
 
 ## Highlights
 - Beginner-friendly examples with clear comments
