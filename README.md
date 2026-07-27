@@ -47,6 +47,7 @@ Python Mini Projects is a collection of beginner-friendly Python practice files 
    ```bash
    python pattern_programs.py
     ```
+   
 10. Functions:
    ```bash
    streamlit run  functions/food_delivery_app/food_app.py
