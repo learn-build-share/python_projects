@@ -1,6 +1,6 @@
 # 🚀 Python Projects
 
-A collection of **beginner-friendly Python projects** and practice programs to help you learn Python through hands-on examples. This repository covers core Python concepts with mini projects and interactive applications built using **Python** and **Streamlit**.
+A collection of **beginner-friendly Python projects** and practice programs to help you learn Python through hands-on examples. This repository covers core Python concepts with mini projects and interactive applications built using **Python**.
 ---
 
 ## 📖 About
