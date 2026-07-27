@@ -74,8 +74,18 @@ python Tuple/otp_verification_without_ui.py
 python Tuple/tuple_learning_notes.py
 ```
 
-> Tuple examples are now included in the overview alongside the existing list and string practice scripts.
-
 ## Requirements
-The project dependencies are listed in [requirements.txt](requirements.txt).
 
+Install all required packages using:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Contributing
+
+Contributions are welcome! Feel free to fork the repository, improve existing projects, or add new beginner-friendly Python projects.
+
+## License
+
+This project is intended for learning and educational purposes.
