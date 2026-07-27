@@ -47,6 +47,11 @@ Python Mini Projects is a collection of beginner-friendly Python practice files 
    ```bash
    python pattern_programs.py
     ```
+10. Functions:
+   ```bash
+   streamlit run  functions/food_delivery_app/food_app.py
+   python functions/food_app.py
+    ```
 ## Project structure
 - calculator/: simple calculator examples and practice files
 - certificate_generator/: certificate preview generator built with Streamlit
@@ -56,6 +61,7 @@ Python Mini Projects is a collection of beginner-friendly Python practice files 
 - Tuple/: tuple examples, OTP verification scripts, and beginner notes
 - Set/: Set examples, Instagram follower cleaner mini project, and beginner notes
 - FrozenSet/: Mini Project and demo of Frozen set.
+- functions/: food delivery app mini project.
 
 ## Highlights
 - Beginner-friendly examples with clear comments
