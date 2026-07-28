@@ -92,6 +92,7 @@ pip install -r requirements.txt
 | 🎫 Event ID Pass Generator    | `streamlit run FrozenSet/event_verification_id.py`      |
 | 🍔 Food Delivery App          | `streamlit run functions/food_delivery_app/food_app.py` |
 | 🎨 Pattern Programs           | `python pattern_programs.py`                            |
+| 🚀 Analyze Resume             | `streamlit run functions/Ai_Resume_Analyser/app.py`     |
 
 ---
 
