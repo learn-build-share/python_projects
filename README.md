@@ -93,7 +93,7 @@ pip install -r requirements.txt
 | 🍔 Food Delivery App          | `streamlit run functions/food_delivery_app/food_app.py` |
 | 🎨 Pattern Programs           | `python pattern_programs.py`                            |
 | 🚀 Analyze Resume             | `streamlit run functions/Ai_Resume_Analyser/app.py`     |
-
+| 🧠 AI Prompt Generator        | `streamlit run functions/Ai_Prompt_Generator/app.py`    | 
 ---
 
 ## 📚 Run Practice Files
