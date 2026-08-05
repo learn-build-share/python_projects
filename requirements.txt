@@ -2,3 +2,7 @@ streamlit>=1.38.0
 pandas>=2.2.0
 Pillow>=10.0.0
 plotly>=5.0.0
+transformers==5.14.1 
+torch==2.13.0
+torchvision==0.28.0
+sentencepiece==0.2.2
