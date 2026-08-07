@@ -1,0 +1,117 @@
+#Examples of pass by value and pass by reference in Python
+def upload_resume(file_name):
+    return f"{file_name} uploaded successfully."
+
+result = upload_resume("resume.pdf")
+print(result)
+# resume.pdf uploaded successfully.
+
+
+def add_item(my_list):
+    my_list.append(100)
+
+numbers = [10, 20, 30]
+add_item(numbers)
+
+print(numbers)
+# [10, 20, 30, 100]
+
+
+
+def change_name(name):
+    name = name + " Kumar"
+    print("Inside function:", name)
+
+student = "Rahul"
+
+change_name(student)
+
+print("Outside function:", student)
+# Inside function: Rahul Kumar
+# Outside function: Rahul
+
+
+
+def modify_data(text, my_tuple):
+    # Creating new objects
+    text = text + " World"
+    my_tuple = my_tuple + (40,)
+
+    print("Inside String:", text)
+    print("Inside Tuple:", my_tuple)
+
+name = "Hello"
+numbers = (10, 20, 30)
+
+modify_data(name, numbers)
+print("Outside String:", name) # Hello
+print("Outside Tuple:", numbers) # (10, 20, 30)
+
+def modify_data(my_list, my_dict):
+    # Modifying existing objects
+    my_list.append(40)
+    my_dict["city"] = "Hyderabad"
+
+numbers = [10, 20, 30]
+person = {
+    "name": "Rahul",
+    "age": 25
+}
+
+modify_data(numbers, person)
+print("List:", numbers) #[10, 20, 30, 40]
+print("Dictionary:", person) # {'name': 'Rahul', 'age': 25, 'city': 'Hyderabad'}
+
+# Learn Build Share Notes
+# ----------------------
+# def:
+# - The def keyword defines a function in Python.
+# - A function groups reusable logic under a name and can accept parameters.
+# - Example:
+#     def greet(name):
+#         print(f"Hello, {name}")
+#
+# return:
+# - The return statement sends a value back to the caller.
+# - If no return is present, Python returns None.
+# - Example:
+#     def add(a, b):
+#         return a + b
+#
+# pass by value vs pass by reference:
+# - Python passes references to objects by value.
+# - Immutable objects (int, str, tuple) cannot be changed in place.
+#   Reassigning a parameter creates a new object local to the function.
+# - Mutable objects (list, dict, set) can be modified in place.
+#   Changes are visible to the caller because both names refer to the same object.
+# - Python is not true pass-by-reference because reassigning a parameter does not
+#   change the caller's variable binding.
+#
+# Example of immutable object behavior:
+#     def change_number(x):
+#         x = x + 5
+#         return x
+#
+#     n = 10
+#     print(change_number(n))  # 15
+#     print(n)                # 10
+#
+# Example of mutable object behavior:
+#     def add_item(lst):
+#         lst.append(99)
+#
+#     values = [1, 2, 3]
+#     add_item(values)
+#     print(values)  # [1, 2, 3, 99]
+#
+# Interview Questions:
+# 1. What does the return statement do inside a Python function?
+# 2. How does Python pass function arguments: by value or by reference?
+# 3. Why does modifying a list inside a function affect the caller's list?
+# 4. Why doesn't reassigning an integer parameter inside a function change the original integer?
+# 5. What is the difference between mutable and immutable objects in function calls?
+# 6. What does def mean and how do you define a function with parameters?
+# 7. How would you explain Python's argument passing model to a beginner?
+# 8. What is the purpose of a pass statement in a function body?
+#
+# Made by Learn Build Share
