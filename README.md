@@ -44,6 +44,7 @@ Python_Projects/
 ├── Set/
 ├── FrozenSet/
 ├── functions/
+│   ├── AI_Interview_Feedback/
 │   ├── AI_Resume_Analyser/
 │   ├── Ai_Prompt_Generator/
 │   ├── Ai_Student_Certificate/
@@ -109,7 +110,8 @@ GROQ_API_KEY=your_groq_api_key_here
 | 📱 Instagram Follower Cleaner      | `streamlit run Set/instagram_cleaner/app.py`          |
 | 🎫 Event ID Pass Generator         | `streamlit run FrozenSet/event_verification_id.py`    |
 | 🍔 Food Delivery App               | `streamlit run functions/food_delivery_app/food_app.py` |
-| 🚀 AI Resume Analyzer              | `streamlit run functions/Ai_Resume_Analyser/app.py`   |
+| 🚀 AI Interview Feedback           | `streamlit run functions/AI_Interview_Feedback/app.py` |
+| 📄 AI Resume Analyzer              | `streamlit run functions/AI_Resume_Analyser/app.py`   |
 | 🧠 AI Prompt Generator             | `streamlit run functions/Ai_Prompt_Generator/app.py`  |
 | 📝 AI Notes Builder                | `streamlit run functions/Ai_Notes_Builder/app.py`     |
 | 🏆 AI Student Certificate Builder  | `streamlit run functions/AI_Student_Certificate/app.py` |
@@ -118,6 +120,7 @@ GROQ_API_KEY=your_groq_api_key_here
 
 ## 🧠 AI and Groq Notes
 
+* `functions/AI_Interview_Feedback/app.py` generates interview feedback for resumes using `langchain_groq` and `ChatGroq`.
 * `functions/Ai_Notes_Builder/app.py` helps generate study notes and prompts using AI.
 * `functions/AI_Student_Certificate/app.py` uses `langchain_groq` and `ChatGroq` to generate certificate JSON and render a preview.
 * The AI apps depend on `streamlit`, `python-dotenv`, and Groq API access.
