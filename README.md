@@ -19,6 +19,7 @@ This repository contains small Python projects and practice files covering topic
 * 🎨 Pattern Programs
 * 🧠 AI Notes Builder (Streamlit)
 * 🏆 AI Student Certificate (Streamlit + Groq)
+* 🚀 AI Interview Feedback (Streamlit + Groq)
 
 The goal is to provide simple, practical examples that help beginners understand Python fundamentals and AI-enhanced workflows.
 
