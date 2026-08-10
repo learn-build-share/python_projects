@@ -119,6 +119,26 @@ GROQ_API_KEY=your_groq_api_key_here
 
 ---
 
+## 🧠 Scope Notes
+
+* `functions/scope.py` demonstrates Python variable scope with a nested function example.
+* Covers the LEGB lookup order: Local, Enclosing, Global, Built-in.
+* Shows how assignment rules create local scope and when to use `global` or `nonlocal`.
+* Explains why Python control structures like `if`, `for`, and `while` do not create new local scope.
+* Includes guidance on avoiding shadowing built-in names.
+
+## ❓ Scope Interview Questions
+
+* What does LEGB stand for, and how does Python use it to resolve variable names?
+* What is the difference between local, enclosing, global, and built-in scope?
+* When should you use `global` versus `nonlocal`?
+* What happens if you assign to a variable inside a function without declaring it `global`?
+* Why do `if`, `for`, and `while` blocks not create new scopes in Python?
+* How can shadowing a built-in name such as `len` or `list` create bugs?
+* In the `outer` / `inner` example, where is `gang` found and why?
+
+---
+
 ## 🧠 AI and Groq Notes
 
 * `functions/AI_Interview_Feedback/app.py` generates interview feedback for resumes using `langchain_groq` and `ChatGroq`.
