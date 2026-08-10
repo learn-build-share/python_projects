@@ -111,7 +111,9 @@ GROQ_API_KEY=your_groq_api_key_here
 | 📱 Instagram Follower Cleaner      | `streamlit run Set/instagram_cleaner/app.py`          |
 | 🎫 Event ID Pass Generator         | `streamlit run FrozenSet/event_verification_id.py`    |
 | 🍔 Food Delivery App               | `streamlit run functions/food_delivery_app/food_app.py` |
-| 🚀 AI Interview Feedback           | `streamlit run functions/AI_Interview_Feedback/app.py` |
+| � Password Strength Checker       | `streamlit run functions/password_strength_build.py`  |
+| 🔑 Password Checker (Console)      | `python functions/password_checker.py`                |
+| �🚀 AI Interview Feedback           | `streamlit run functions/AI_Interview_Feedback/app.py` |
 | 📄 AI Resume Analyzer              | `streamlit run functions/AI_Resume_Analyser/app.py`   |
 | 🧠 AI Prompt Generator             | `streamlit run functions/Ai_Prompt_Generator/app.py`  |
 | 📝 AI Notes Builder                | `streamlit run functions/Ai_Notes_Builder/app.py`     |
