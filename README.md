@@ -118,6 +118,7 @@ GROQ_API_KEY=your_groq_api_key_here
 | 🧠 AI Prompt Generator             | `streamlit run functions/Ai_Prompt_Generator/app.py`  |
 | 📝 AI Notes Builder                | `streamlit run functions/Ai_Notes_Builder/app.py`     |
 | 🏆 AI Student Certificate Builder  | `streamlit run functions/AI_Student_Certificate/app.py` |
+| 🛡️ Decorator Q&A (console)         | `python Decorator/decorator.py`                       |
 
 ---
 
