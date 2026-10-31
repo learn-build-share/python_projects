@@ -23,7 +23,7 @@ This repository contains small Python projects and practice files covering topic
 * 🚀 AI Interview Feedback (Streamlit + Groq)
 * 🎟️ VIP Entry System
 * 🥊 WWE Players Info API (FastAPI mini project)
-* 🧠 Data structures and algorithm examples (DSA/LL)
+* 🧠 Data structures and algorithm examples (DSA package with linked list, circular list, stack, queue, hashmap, parsing, and enums)
 
 
 ## 🐍 Python Version
@@ -40,6 +40,21 @@ python_projects/
 ├── certificate_generator/
 ├── Classes/
 ├── DSA/
+│   ├── algorithms/
+│   │   ├── recursion.py
+│   │   ├── searching.py
+│   │   └── sorting.py
+│   ├── basics/
+│   │   ├── enum.py
+│   │   └── parsing.py
+│   ├── data_structures/
+│   │   ├── circular_linked_list.py
+│   │   ├── custom_hashmap.py
+│   │   ├── hashmap.py
+│   │   ├── linked_list.py
+│   │   ├── queue.py
+│   │   └── stack.py
+│   └── README.md
 ├── FileHandling/
 ├── fastapi-series/
 │   └── wwe_project/
