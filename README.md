@@ -23,6 +23,7 @@ This repository contains small Python projects and practice files covering topic
 * 🚀 AI Interview Feedback (Streamlit + Groq)
 * 🎟️ VIP Entry System
 * 🥊 WWE Players Info API (FastAPI mini project)
+* 📧 Email Assistant (FastAPI + JWT auth demo)
 * 🧠 Data structures and algorithm examples (DSA package with linked list, circular list, stack, queue, hashmap, parsing, and enums)
 
 
@@ -144,6 +145,7 @@ GROQ_API_KEY=your_groq_api_key_here
 | 🏆 AI Student Certificate Builder | `streamlit run functions/AI_Student_Certificate/app.py` |
 | 🎟️ VIP Entry System | `streamlit run Decorator/app.py` |
 | 🥊 WWE Players Info API | `cd fastapi-series/wwe_project && python run.py` |
+| 📧 Email Assistant API | `cd fastapi-series/email_assistant && uvicorn app:app --reload` |
 | 🧩 WWE Player Hub UI | `cd fastapi-series/wwe_project && streamlit run app.py` |
 
 ---

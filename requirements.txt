@@ -12,3 +12,7 @@ langchain-groq>=1.1.3
 groq>=0.37.1
 fastapi[standard]>=0.100.0
 pydantic>=2.10.0
+uvicorn
+PyJWT
+pwdlib[argon2]
+python-multipart
