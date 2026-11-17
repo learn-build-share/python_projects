@@ -21,6 +21,7 @@ This repository contains small Python projects and practice files covering topic
 * 🧠 AI Notes Builder (Streamlit)
 * 🏆 AI Student Certificate (Streamlit + Groq)
 * 🚀 AI Interview Feedback (Streamlit + Groq)
+* 🤖 AI Data Analyst (CSV-based sales insights with natural-language Q&A)
 * 🎟️ VIP Entry System
 * 🥊 WWE Players Info API (FastAPI mini project)
 * 📧 Email Assistant (FastAPI + JWT auth demo)
@@ -69,6 +70,14 @@ python_projects/
 ├── functions/
 ├── quizapp/
 ├── mini_chatgpt/
+├── ai-data-analyst/
+│   ├── analyst.py
+│   ├── app.py
+│   ├── benchmark.py
+│   ├── generate_data.py
+│   ├── lazy_reader.py
+│   ├── data/
+│   └── README.md
 ├── allany.py
 ├── filemodes.py
 ├── generator.py
@@ -143,6 +152,7 @@ GROQ_API_KEY=your_groq_api_key_here
 | 🧠 AI Prompt Generator | `streamlit run functions/Ai_Prompt_Generator/app.py` |
 | 📝 AI Notes Builder | `streamlit run functions/Ai_Notes_Builder/app.py` |
 | 🏆 AI Student Certificate Builder | `streamlit run functions/AI_Student_Certificate/app.py` |
+| 🤖 AI Data Analyst | `cd ai-data-analyst && streamlit run app.py` |
 | 🎟️ VIP Entry System | `streamlit run Decorator/app.py` |
 | 🥊 WWE Players Info API | `cd fastapi-series/wwe_project && python run.py` |
 | 📧 Email Assistant API | `cd fastapi-series/email_assistant && uvicorn app:app --reload` |
